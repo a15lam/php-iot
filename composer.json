@@ -1,0 +1,32 @@
+{
+  "name": "a15lam/php-iot",
+  "description": "PHP library for controlling household IoT devices.",
+  "homepage": "https://a15lam.github.io/php-iot/",
+  "keywords": [
+    "Wemo",
+    "IoT",
+    "sonoff",
+    "smart"
+  ],
+  "license": [
+    "Apache-2.0"
+  ],
+  "authors": [
+    {
+      "name": "Arif Islam",
+      "email": "areef.islam@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.6",
+    "a15lam/workspace": "0.1.0",
+    "a15lam/php-wemo": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "a15lam\\PhpIot\\": "src/"
+    }
+  }
+}
