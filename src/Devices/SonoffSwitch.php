@@ -7,6 +7,8 @@ use a15lam\PhpWemo\Devices\BaseDevice;
 
 class SonoffSwitch extends BaseDevice implements DeviceInterface
 {
+    const MODEL_NAME = 'Sonoff Switch';
+
     /**
      * @param string $resource
      *
