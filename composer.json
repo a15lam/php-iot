@@ -21,8 +21,8 @@
   "prefer-stable": true,
   "require": {
     "php": ">=5.6",
-    "a15lam/workspace": "0.1.0",
-    "a15lam/php-wemo": "dev-master"
+    "a15lam/workspace": "~0.1.0",
+    "a15lam/php-wemo": "~0.2.0"
   },
   "autoload": {
     "psr-4": {
