@@ -4,7 +4,7 @@ namespace a15lam\PhpIot;
 
 use a15lam\PhpIot\Contracts\ClientInterface;
 use a15lam\PhpWemo\WemoClient;
-use a15lam\PhpWemo\Workspace as WS;
+use a15lam\PhpIot\Workspace as WS;
 
 class SonoffClient extends WemoClient implements ClientInterface
 {

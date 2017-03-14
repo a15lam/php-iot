@@ -25,6 +25,8 @@ if (count($devices) > 0) {
             } else {
                 if($device['deviceType'] === 'urn:sonoff:device:Basic:1'){
                     $client = new \a15lam\PhpIot\SonoffClient($device['ip'], $device['port']);
+                } elseif ($device['deviceType'] === 'urn:peach:device:Basic:1'){
+                    $client = new \a15lam\PhpIot\PTClient($device['ip'], $device['port']);
                 } else {
                     $client = new \a15lam\PhpWemo\WemoClient($device['ip'], $device['port']);
                 }
@@ -108,6 +110,8 @@ if (count($devices) > 0) {
         } else {
             if($device['deviceType'] === 'urn:sonoff:device:Basic:1'){
                 $client = new \a15lam\PhpIot\SonoffClient($device['ip'], $device['port']);
+            } elseif ($device['deviceType'] === 'urn:peach:device:Basic:1'){
+                $client = new \a15lam\PhpIot\PTClient($device['ip'], $device['port']);
             } else {
                 $client = new \a15lam\PhpWemo\WemoClient($device['ip'], $device['port']);
             }
