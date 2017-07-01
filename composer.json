@@ -26,7 +26,8 @@
   },
   "autoload": {
     "psr-4": {
-      "a15lam\\PhpIot\\": "src/"
+      "a15lam\\PhpIot\\": "src/",
+      "a15lam\\PhpWemo\\": "workbench/repos/php-wemo/src/"
     }
   }
 }

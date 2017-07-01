@@ -21,6 +21,7 @@ class SonoffSwitch extends BaseDevice implements DeviceInterface
 
     public function On()
     {
+        var_dump($this);
         $this->client->request('/switch/on');
 
         return true;
