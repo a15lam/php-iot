@@ -1,5 +1,5 @@
 # php-iot
-PHP library to control Wemo devices and Sonoff with custom firmware found [here](https://github.com/a15lam/sonoff/blob/master/arduino/SSDP_and_webserver/SSDP_and_webserver.ino).
+PHP library to control Wemo devices and Sonoff with custom firmware found [here](https://github.com/a15lam/PT-IoT/blob/master/Socket-Sonoff-AI/Socket-Sonoff-AI.ino).
 
 Currently supports...
 
